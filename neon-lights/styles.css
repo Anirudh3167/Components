@@ -1,0 +1,121 @@
+::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .mainWrapper {
+    display: flex;
+    flex-direction: column;
+  
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 100vw;
+    height: 60px;
+  
+    background: rgba(20, 20, 20, 0.95);
+  }
+  
+  .navigation > a {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 100px;
+    height: 40px;
+  
+    left: 10px;
+    top: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+  
+    color: white;
+  }
+  
+  .navigation > a:hover {
+    color: blue;
+  }
+  
+  .navigation > .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+    min-width: 300px;
+    height: 60px;
+    
+    font-size: 30px;
+    font-weight: 400;
+  
+    color: white;
+  }
+  
+  .mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    padding-top: 60px;
+
+    background: #050505;
+    color: white;
+  }
+
+  .variation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+    height: 300px;
+
+    margin: 10px;
+    box-shadow: 1px 3px 5px rgb(25,25,25);
+
+    background: linear-gradient(45deg, black, rgb(27, 27, 27), rgb(48, 48, 48));
+}
+
+.neonbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+    height: 40px;
+
+    font-size: 28px;
+    padding: 10px;
+    border: 2px solid rgb(227,9,194);
+    cursor: pointer;
+    border-radius: 5px;
+
+    color:rgb(227, 9, 194);
+}
+
+.neonbtn:hover {
+    border: 2px solid rgb(255, 0, 255);
+    box-shadow: 0px 0px 100px rgba(255, 0, 255,1),
+    0px 0px 150px rgba(255, 0, 255,0.8),
+    0px 0px 200px rgba(255, 0, 255,0.6),
+    0px 0px 250px rgba(255, 0, 255,0.4);
+
+    background: transparent;
+}
