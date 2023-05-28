@@ -19,6 +19,23 @@
     color: black;
     background-color: white;
 }
+.backBtn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+    height: 40px;
+
+    padding: 10px;
+    left: 10px;
+    top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
 
 .boxContainer {
     display: flex;
@@ -65,4 +82,9 @@
         padding: 10px;
     }
     
+}
+@media only screen and (max-width:600px) {
+    .welcomeNote {
+        margin-top: 60px;
+    }
 }
