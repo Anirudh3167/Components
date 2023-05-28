@@ -1,2 +1,2 @@
-# css-fun
-Small scaled components made to understand the css in a better way
+# components
+A better way to figure out the web components that suits you.
