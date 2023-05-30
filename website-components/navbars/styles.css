@@ -74,8 +74,6 @@
     width: 100vw;
     min-height: 100vh;
 
-    margin-top: 80px;
-
     background: white;
     color: white;
   }
@@ -86,7 +84,7 @@
   justify-content: center;
 
   width: calc(100vw - 10px);
-  min-height: 100px;
+  height: 100px;
 
   margin: 10px;
   margin-bottom: 20px;
